@@ -1,0 +1,61 @@
+# Python 缓存和编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pycache
+
+# 虚拟环境
+venv/
+env/
+virtualenv/
+*.env
+*.venv
+
+# 安装依赖文件
+requirements.txt
+Pipfile.lock
+poetry.lock
+setup.py
+dist/
+build/
+*.egg-info/
+MANIFEST
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# 日志和数据库文件
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+
+# 本地配置文件（示例）
+config/local_settings.py
+secrets.json
+
+# 测试相关
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Docker 相关
+docker-compose.override.yml
+*.tar.gz
+
+# 临时文件
+*.tmp
+*.temp
+
